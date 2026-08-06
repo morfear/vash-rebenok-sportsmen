@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ваш ребенок — спортсмен | Книга для родителей</title>
+  <meta name="description" content="Книга для родителей, которые хотят понять, как профессиональный спорт меняет жизнь ребенка, семьи и самого родителя. Авторы: Юлия Бравикова, Евгения Остапцова." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!--
+    ═══════════════════════════════════════════════════════════
+    РЕДАКТИРУЕМЫЕ ССЫЛКИ И КОНТАКТЫ
+    Замените значения ниже — они используются кнопками на сайте.
+    ═══════════════════════════════════════════════════════════
+  -->
+  <script>
+    window.SITE = {
+      // Telegram: покупка книги
+      telegramBook: "https://t.me/ostapcova",
+      // Telegram: Юлия Бравикова (пусто = кнопка неактивна)
+      telegramJulia: "",
+      // Telegram: Евгения Остапцова
+      telegramEvgenia: "https://t.me/ostapcova",
+      // Контактный e-mail (оставьте пустым, чтобы скрыть)
+      email: ""
+    };
+  </script>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">Ваш ребенок — спортсмен</a>
+      <a href="#" class="nav__cta" data-link="telegramBook" target="_blank" rel="noopener noreferrer">Купить книгу</a>
+    </div>
+  </header>
+
+  <!-- 1. Hero -->
+  <section class="hero" id="top">
+    <div class="hero__grid">
+      <div class="hero__content">
+        <p class="eyebrow">Книга для родителей</p>
+        <h1 class="hero__title">Ваш ребенок — спортсмен</h1>
+        <p class="hero__lead">
+          Книга для родителей, которые хотят понять, как профессиональный спорт меняет жизнь ребёнка, семьи и самого родителя.
+        </p>
+        <p class="hero__sub">
+          Это честный разговор о победах, страхах, ошибках, поддержке, мотивации и цене больших спортивных достижений.
+        </p>
+        <a href="#" class="btn" data-link="telegramBook" target="_blank" rel="noopener noreferrer">Купить книгу</a>
+      </div>
+      <div class="hero__media">
+        <!-- РЕДАКТИРОВАТЬ: совместная фотография авторов → assets/authors-together.jpg -->
+        <div class="photo photo--hero">
+          <img
+            src="assets/authors-together.jpg"
+            alt="Юлия Бравикова и Евгения Остапцова — авторы книги"
+            width="900"
+            height="1100"
+            onerror="this.style.display='none'; this.parentElement.classList.add('photo--placeholder')"
+          />
+          <div class="photo__placeholder" aria-hidden="true">
+            <span>Совместное фото авторов</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. О книге -->
+  <section class="section section--sand" id="about">
+    <div class="container container--narrow">
+      <p class="eyebrow eyebrow--center">О книге</p>
+      <h2 class="section__title section__title--center">Психология спортивного пути</h2>
+      <!-- РЕДАКТИРОВАТЬ: текст о книге -->
+      <p class="section__text section__text--center" id="book-text">
+        Эта книга написана двумя специалистами, которые много лет работают рядом со спортсменами, родителями и тренерами. Она поможет лучше понять психологию спортивного пути, сохранить доверие в семье и избежать ошибок, которые могут стоить ребёнку не только спортивной карьеры, но и внутреннего благополучия.
+      </p>
+      <div class="about__cta">
+        <a href="#" class="btn" data-link="telegramBook" target="_blank" rel="noopener noreferrer">Купить книгу</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Авторы -->
+  <section class="section" id="authors">
+    <div class="container">
+      <p class="eyebrow eyebrow--center">Авторы книги</p>
+      <h2 class="section__title section__title--center">Эксперты рядом с вами</h2>
+
+      <div class="authors">
+        <!-- Автор 1: Юлия Бравикова -->
+        <article class="author">
+          <div class="photo photo--author">
+            <!-- РЕДАКТИРОВАТЬ: фото → assets/julia.jpg -->
+            <img
+              src="assets/julia.jpg"
+              alt="Юлия Бравикова"
+              width="640"
+              height="800"
+              onerror="this.style.display='none'; this.parentElement.classList.add('photo--placeholder')"
+            />
+            <div class="photo__placeholder" aria-hidden="true">
+              <span>Фото Юлии</span>
+            </div>
+          </div>
+          <div class="author__body">
+            <h3 class="author__name">Юлия Бравикова</h3>
+            <!-- РЕДАКТИРОВАТЬ: регалии Юлии -->
+            <div class="author__bio" id="julia-bio">
+              <p class="author__bio-placeholder">Регалии и описание будут добавлены позже.</p>
+            </div>
+            <a href="#" class="btn btn--outline" data-link="telegramJulia" target="_blank" rel="noopener noreferrer">
+              Записаться на личную консультацию
+            </a>
+          </div>
+        </article>
+
+        <!-- Автор 2: Евгения Остапцова -->
+        <article class="author">
+          <div class="photo photo--author">
+            <!-- РЕДАКТИРОВАТЬ: фото → assets/evgenia.jpg -->
+            <img
+              src="assets/evgenia.jpg"
+              alt="Евгения Остапцова"
+              width="640"
+              height="800"
+              onerror="this.style.display='none'; this.parentElement.classList.add('photo--placeholder')"
+            />
+            <div class="photo__placeholder" aria-hidden="true">
+              <span>Фото Евгении</span>
+            </div>
+          </div>
+          <div class="author__body">
+            <h3 class="author__name">Евгения Остапцова</h3>
+            <!-- РЕДАКТИРОВАТЬ: описание Евгении -->
+            <div class="author__bio" id="evgenia-bio">
+              <p>Психолог, ректор Университета Психологического здоровья.</p>
+            </div>
+            <a href="#" class="btn btn--outline" data-link="telegramEvgenia" target="_blank" rel="noopener noreferrer">
+              Записаться на личную консультацию
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© Авторы книги «Ваш ребенок — спортсмен»</p>
+      <div class="footer__links">
+        <a href="#privacy" class="footer__link" id="privacy-link">Политика конфиденциальности</a>
+        <a href="mailto:" class="footer__link" data-email hidden>E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Модальное окно: политика конфиденциальности (минимальный шаблон) -->
+  <div class="modal" id="privacy" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="dialog" aria-labelledby="privacy-title" aria-modal="true">
+      <button type="button" class="modal__close" data-close-modal aria-label="Закрыть">×</button>
+      <h2 id="privacy-title" class="modal__title">Политика конфиденциальности</h2>
+      <div class="modal__body">
+        <p>Настоящий сайт носит информационный характер и предназначен для ознакомления с книгой «Ваш ребенок — спортсмен» и услугами авторов.</p>
+        <p>При переходе в Telegram или по e-mail вы взаимодействуете напрямую с авторами. Обработка персональных данных осуществляется в соответствии с законодательством Российской Федерации.</p>
+        <p>Мы не собираем и не храним платёжные данные на этом сайте. Оплата и получение книги оформляются через указанные каналы связи.</p>
+        <p>По вопросам, связанным с персональными данными, свяжитесь с авторами через Telegram или e-mail, указанный на сайте.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var site = window.SITE || {};
+
+      document.querySelectorAll("[data-link]").forEach(function (el) {
+        var key = el.getAttribute("data-link");
+        var url = site[key];
+        if (url) {
+          el.setAttribute("href", url);
+        } else {
+          el.removeAttribute("href");
+          el.setAttribute("aria-disabled", "true");
+          el.classList.add("btn--disabled");
+          el.addEventListener("click", function (e) {
+            e.preventDefault();
+          });
+        }
+      });
+
+      var emailEl = document.querySelector("[data-email]");
+      if (emailEl && site.email) {
+        emailEl.setAttribute("href", "mailto:" + site.email);
+        emailEl.textContent = site.email;
+        emailEl.hidden = false;
+      }
+
+      var modal = document.getElementById("privacy");
+      var openBtn = document.getElementById("privacy-link");
+      if (openBtn && modal) {
+        openBtn.addEventListener("click", function (e) {
+          e.preventDefault();
+          modal.hidden = false;
+          document.body.style.overflow = "hidden";
+        });
+        modal.querySelectorAll("[data-close-modal]").forEach(function (el) {
+          el.addEventListener("click", function () {
+            modal.hidden = true;
+            document.body.style.overflow = "";
+          });
+        });
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && !modal.hidden) {
+            modal.hidden = true;
+            document.body.style.overflow = "";
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
