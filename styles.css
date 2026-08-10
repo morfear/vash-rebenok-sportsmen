@@ -289,6 +289,14 @@ a.btn--disabled:hover {
   box-shadow: 0 24px 60px rgba(28, 27, 25, 0.08);
 }
 
+.photo--hero img {
+  object-position: center 35%;
+}
+
+.photo--author img {
+  object-position: center top;
+}
+
 .photo--author {
   aspect-ratio: 4 / 5;
   margin-bottom: 1.5rem;
