@@ -290,7 +290,7 @@ a.btn--disabled:hover {
 }
 
 .photo--hero img {
-  object-position: center 35%;
+  object-position: center center;
 }
 
 .photo--author img {
