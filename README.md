@@ -23,7 +23,7 @@ python3 -m http.server 8080
 window.SITE = {
   telegramBook: "https://t.me/BOOK_PURCHASE",      // покупка книги
   telegramJulia: "https://t.me/JULIA_BRAVIKOVA",   // Юлия
-  telegramEvgenia: "https://t.me/ostapcova",       // Евгения
+  telegramEvgenia: "https://t.me/bravik_17",       // Евгения
   email: ""                                        // e-mail (пусто = скрыт)
 };
 ```
